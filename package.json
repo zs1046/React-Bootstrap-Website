@@ -2,7 +2,9 @@
   "name": "veve-website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://zs1046.github.io/React-Bootstrap-Website",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "react": "^16.4.1",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.4.1",
@@ -11,6 +13,8 @@
     "tachyons": "^4.10.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
