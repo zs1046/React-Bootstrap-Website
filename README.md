@@ -1,5 +1,5 @@
 ## React-Bootstrap-Website
 
-This is a template for making a website using React-Bootstrap.
+This is a template for a React-Bootstrap website.
 
 More work to be done
